@@ -15,7 +15,7 @@ class Category extends AdminController {
 	public function index() {
 		$categories = $this->category_model->findAll();
 		$data['categories'] = $categories;
-		$this->layout->view('./views/category/index', $data);
+		$this->layout->view('category/index', $data);
 	}
 
 	// 添加分类
@@ -25,7 +25,7 @@ class Category extends AdminController {
 		$data['objectId'] = $objectId;
 		// 全部分类
 		$data['categories'] = $this->category_model->findAll();
-		$this->layout->view('./views/category/add', $data);
+		$this->layout->view('category/add', $data);
 	}
 
 	// 编辑分类
@@ -44,7 +44,7 @@ class Category extends AdminController {
 		// 全部分类
 		$data['categories'] = $this->category_model->findAll();
 		$data['editingCategory'] = $editingCategory;
-		$this->layout->view('./views/category/edit', $data);
+		$this->layout->view('category/edit', $data);
 	}
 	
 	// 保存分类
@@ -101,7 +101,7 @@ class Category extends AdminController {
 			$object->save();
 			$data['msg'] = '保存成功';
 			$data['level'] = 'info';
-			$this->layout->view('./views/category/msg', $data);
+			$this->layout->view('category/msg', $data);
 		} catch (Exception $ex) {
 			$data['msg'] = '操作失败';
 			$data['level'] = 'warning';
@@ -118,6 +118,6 @@ class Category extends AdminController {
 		$data['msg'] = '删除成功';
 		$data['level'] = 'info';
 		$data['redirect'] = 'index';
-		$this->layout->view('./views/category/msg', $data);
+		$this->layout->view('category/msg', $data);
 	}
 }
