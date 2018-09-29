@@ -47,7 +47,7 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">辅助生育</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg">云商城</span>
+        <span class="logo-lg"><b>微信</b>云商城</span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">
@@ -65,7 +65,7 @@
                 <span class="label label-success">4</span>
               </a>
                         <div class="pull-left">
-                        < <ul class="dropdown-menu">
+                        <ul class="dropdown-menu">
                 <li class="header">You have 4 messages</li>
                 <li>
                   <!-- inner menu: contains the actual data -->
