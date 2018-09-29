@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>灵动云商城后台管理系统</title>
+  <title>辅助生育商城后台管理系统</title>
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="white">
-  <meta name="apple-mobile-web-app-title" content="灵动云商"/>
+  <meta name="apple-mobile-web-app-title" content="商城"/>
   <link rel="apple-touch-icon-precomposed" href="/assets/images/logo180.png">
   <!-- icon for web -->
   <link rel="icon" type="image/png" href="/assets/images/logo180.png">
@@ -45,9 +45,9 @@
       <!-- Logo -->
       <a href="<?=base_url('/')?>" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini">灵动</span>
+        <span class="logo-mini">辅助生育</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg"><b>灵动</b>云商城</span>
+        <span class="logo-lg">商城</span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">
@@ -64,15 +64,15 @@
                 <i class="fa fa-envelope-o"></i>
                 <span class="label label-success">4</span>
               </a>
-              <ul class="dropdown-menu">
+             href="#">
+                        <div class="pull-left">
+                        < <ul class="dropdown-menu">
                 <li class="header">You have 4 messages</li>
                 <li>
                   <!-- inner menu: contains the actual data -->
                   <ul class="menu">
                     <li><!-- start message -->
-                      <a href="#">
-                        <div class="pull-left">
-                        </div>
+                      <a /div>
                         <h4>
                           Support Team
                           <small><i class="fa fa-clock-o"></i> 5 mins</small>
