@@ -7,7 +7,7 @@
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="white">
-  <meta name="apple-mobile-web-app-title" content="商城"/>
+  <meta name="apple-mobile-web-app-title" content="辅助生育商城"/>
   <link rel="apple-touch-icon-precomposed" href="/assets/images/logo180.png">
   <!-- icon for web -->
   <link rel="icon" type="image/png" href="/assets/images/logo180.png">
@@ -47,7 +47,7 @@
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">辅助生育</span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg">商城</span>
+        <span class="logo-lg">云商城</span>
       </a>
       <!-- Header Navbar: style can be found in header.less -->
       <nav class="navbar navbar-static-top">
@@ -64,7 +64,6 @@
                 <i class="fa fa-envelope-o"></i>
                 <span class="label label-success">4</span>
               </a>
-             href="#">
                         <div class="pull-left">
                         < <ul class="dropdown-menu">
                 <li class="header">You have 4 messages</li>
