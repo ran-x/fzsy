@@ -2,13 +2,13 @@
 <html class="no-js">
 <head>
 	<meta charset="utf-8">
-	<title>灵动云商</title>
+	<title>辅助生育商城</title>
 	<link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
 	<script src="//cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
 	<script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="keywords" content="灵动云商,开源商城系统,微信小程序">
-	<meta name="description" content="灵动云商开源系统是一款基于LeanCloud开发的小程序，包括分类、购物车、微信登录、微信支付、收货地址、评价等基本模块">
+	<meta name="keywords" content="微信小程序">
+	<meta name="description" content="分类、购物车、微信登录、微信支付、收货地址、评价等基本模块">
 	<style>
 		/*分隔线*/
 		.line {
@@ -39,7 +39,7 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav" style="margin-left: 400px;">
 	        <li class="active"><a href="javascript:;">首页<span class="sr-only">(current)</span></a></li>
-	        <li><a id="service" href="http://www.it577.net">关于我们</a></li>
+	        <li><a id="service" href="./manager/login">登陆后台</a></li>
 	      </ul>
 	    </div>
 	  </div>
@@ -54,7 +54,7 @@
 	</div>
 	<hr class="line"/>
 	<footer>
-		<div class="text-center">&copy;2014-2017 <a href="http://blog.it577.net/" target="_blank">灵犀网络</a> 版权所有</div>
+		<div class="text-center">&copy;2011-2018 <a href="http://www.shujutong.com/" target="_blank">江苏瑞曼</a> 版权所有</div>
 	</footer>
 	<script>
 		$(function () { 
